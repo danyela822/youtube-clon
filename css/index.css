@@ -111,6 +111,21 @@ main{
 aside{
     border: 1px solid black;
     grid-area: aside;
+    overflow-y: scroll;
+    
+}
+.aside-container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.aside-button{
+    height: 40px;
+    border: none;
+    background-color: #ffffff00;
+}
+.aside-login{
+    height: auto;
 }
 .categories{
     border: 1px solid green;
