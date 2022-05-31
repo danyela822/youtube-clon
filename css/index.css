@@ -246,12 +246,12 @@ aside{
     height: 30%;
     margin-top: 12px;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
 .video-icon{
     width: 14%;
     height: 54%;
+    align-self: flex-start;
+    margin-right: 12px;
     border-radius: 32px;
     object-fit: cover;
 }
