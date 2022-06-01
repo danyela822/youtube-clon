@@ -38,12 +38,14 @@ header{
 }
 .search-container{
     width: 44%;
+    height: auto;
     display: flex;
+    align-items: center;
     position: absolute;
     left: calc(50% - 337px);
 }
 .search-bar{
-    width: 94%;
+    width: 94%; 
     display: flex;
     align-items: stretch;
     border: 1px solid #d0d0d0;
@@ -55,31 +57,68 @@ header{
     border: none;
     font-size: 1.6rem;
 }
+.search:focus{
+    outline: none;
+}
 .search-button{
     width: 10%;
     border: none;
+}
+.search-button:hover{
+    cursor: pointer;
+    background-color: #e1e1e1;
 }
 .search-icon{
     width: 18px;
     height: 18px;
 }
 .mirco-button{
-    width: 8%;
+    width: 6%;
+    height: 40px;
+    margin-left: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
-    background-color: #ffffff00;
+    border-radius: 19px;
+    background-color: #f9f9f9;
+}
+.mirco-button:hover{
+    cursor: pointer;
 }
 .micro-icon{
-    width: 60%;
+    font-size: 2rem;
 }
 .headers-icons-container{
-    width: 16%;
+    width: 18%;
     display: flex;
     align-items: center;
     position: absolute;
     right: 0;
+}
+.header-buttons{
+    margin: 0 20px;
+    border: none;
+    font-size: 2.4rem;
+    background-color: #ffffff00;
+}
+.header-buttons:hover{
+    cursor: pointer;
+}
+.header-buttons--user{
+    border: 1px solid #2894e6;
+    width: 132px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2894e6;
+}
+.header-buttons__text{
+    padding-top: 4px;
+    padding-left: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 .header-icon{
     width: 24px;
